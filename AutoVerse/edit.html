@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto World</title>
+    <link rel="stylesheet" type="text/css" href="./CSS/edit.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script>
+    <script defer>
+        document.addEventListener("DOMContentLoaded", () => {
+            const carList = document.getElementById("car-list");
+
+            const cars = [
+                { id: 1, name: "Toyota Corolla", price: "$20,000", image: "https://via.placeholder.com/150" },
+                { id: 2, name: "Honda Civic", price: "$22,000", image: "https://via.placeholder.com/150" },
+                { id: 3, name: "Ford Mustang", price: "$35,000", image: "https://via.placeholder.com/150" },
+            ];
+
+            function displayCars(cars) {
+                carList.innerHTML = "";
+                cars.forEach(car => {
+                    const carCard = document.createElement("div");
+                    carCard.className = "col-md-4 mb-4";
+                    carCard.innerHTML = `
+                        <div class="card">
+                            <img src="${car.image}" class="card-img-top" alt="${car.name}">
+                            <div class="card-body">
+                                <h5 class="card-title">${car.name}</h5>
+                                <p class="card-text">Price: ${car.price}</p>
+                                <a href="#" class="btn btn-primary">View Details</a>
+                            </div>
+                        </div>
+                    `;
+                    carList.appendChild(carCard);
+                });
+            }
+
+            displayCars(cars);
+        });
+    </script>
+</head>
+<body>
+    <pre id="Y1"><b>AutoVerse</b>            <a href="./index.html">Home</a>     <a href="./newcar.html">New Car</a>     <a href="./usedcar.html" target="_blank">Used Car</a>     <a href="./sellcar.html">Sell Car</a>     <a href="./carloan.html">Car Loan</a>     <a href="./carservices.html">Car Services</a>     <a href="./carreviews.html">Car Reviews</a>     <a href="./edit.html">Edited</a>      </pre>
+    <img id="img1" src="./IMAGE/car website.png" height="400px" width="1483px" style="margin: 10px;">
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Featured Cars</h1>
+        <div id="car-list" class="row">
+            
+        </div>
+    </div>
+
+    <div class="id6">
+        <center> <pre><a href="./aboutus.html">About us</a>     <a href="./terms&condition.html">Terms & Conditions</a>     <a href="./contactus.html">Contact Us</a>      <a href="./advertise.html">Advertise</a></pre></center>
+        <pre>                                                                                 <b>Contact with us :</b></pre>
+        <pre>                                                                             <a href="https://www.facebook.com/"><img src="./IMAGE/facebook.png" height="35px" width="35px"></a>   <a href="https://x.com/i/flow/login"><img src="./IMAGE/x.png" height="35px" width="35px"></a>   <a href="https://in.indeed.com/"><img src="./IMAGE/indeed.png" height="35px" width="35px"></a>   <a href="https://www.instagram.com/"><img src="./IMAGE/instagram.png" height="35px" width="35px"></a>    </pre>
+        <br>
+        <br>
+        <pre><b>Designed By Yash Gurav</b>                                                                                                                    <b>Visitor Agreement & Privacy Policy</b><a href="#Y1" style="margin: 5px; padding: 5px;"><img src="./IMAGE/upside arrow.png" height="35px" width="35px"></a></pre>   
+     </div>
+</body>
+</html>

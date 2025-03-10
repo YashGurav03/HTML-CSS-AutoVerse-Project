@@ -1,0 +1,31 @@
+.id6{
+    background-color: black;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+}
+.id6 pre{
+    font-size: 15px;
+}
+.id6 b{
+    font-size: 15px;
+}
+.id1{
+    background-color: orangered;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+}
+#Y1{
+    font-size: 20px;
+    background-color: orangered;
+    margin: 10px;
+    padding: 20px;
+}
+#Y1 b{
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

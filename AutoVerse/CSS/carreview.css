@@ -1,0 +1,62 @@
+.id6{
+    background-color: black;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+}
+.id6 pre{
+    font-size: 15px;
+}
+.id6 b{
+    font-size: 15px;
+}
+.id1{
+    background-color: orangered;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border: 3px solid black;
+}
+#Y1{
+    font-size: 20px;
+    background-color: orangered;
+    margin: 10px;
+    padding: 20px;
+    border: 3px solid black;
+}
+#Y1 b{
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+   font-size: 25px;
+   margin: 10px;
+   padding: 10px;
+   background-color: lightskyblue;
+   border: 3px solid black;
+}
+p{
+    font-size: 20px;
+    margin: 10px;
+    border: 2px dashed black;
+    padding: 5px;
+}
+p::selection{
+    color: red;
+    background-color: yellow;
+}
+.img1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 5%;
+}
+a{
+    text-decoration: none;
+}
+img {
+    border-radius: 8%;
+}

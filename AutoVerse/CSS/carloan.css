@@ -1,0 +1,66 @@
+#Y1{
+    font-size: 20px;
+    background-color: orangered;
+    margin: 10px;
+    padding: 20px;
+    border: 3pxx solid black;
+}
+#Y1 b{
+    color: black;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.id6{
+    background-color: black;
+    color: orangered;
+    margin: 10px;
+    padding: 10px;
+}
+.id6 pre{
+    font-size: 15px;
+}
+.id6 b{
+    font-size: 15px;
+}
+h2{
+    background-color: lightskyblue;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid black;
+}
+p{
+    font-size: larger;
+    margin: 10px;
+    padding: 5px;
+    border: 2px dashed black;
+}
+b{
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
+.id1{
+    background-color: orangered;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    border: 3px solid black;
+}
+ul{
+    font-size: larger;
+    margin: 10px;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+}
+li {
+    font-size: large;
+}
+img {
+    border-radius: 8%;
+}
